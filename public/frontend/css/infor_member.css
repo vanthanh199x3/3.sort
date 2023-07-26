@@ -1,0 +1,562 @@
+body{
+    background-color: #fff !important;
+}
+
+/*===================BEGIN INFOR_MEMBER =======---------------*/
+.nav-stacked li a
+{
+  color: #000;
+}
+.nav-stacked >li.active>a, .nav-stacked >li.active>a:focus, .nav-stacked >li.active>a:hover
+{
+  background-color: inherit !important;
+  color: #2BBEF9 !important;
+}
+.list_info
+{ font-size: 14px; line-height: 24px; }
+
+.list_info li a i
+{
+  background: #EBF8FE;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+    color: #5BCCFA;
+}
+.list_info li a{ color: #000; }
+.list_info li{
+  margin-bottom: 15px;
+}
+.i-avatar
+{
+  float: left;
+    margin-right: 25px;
+    margin-bottom: 30px;
+}
+.name-avatar
+{
+  float: left;
+}
+.name-avatar h3
+{
+    margin-top: 0px;
+}
+
+.name-avatar span
+{
+    background: #FFEB8A;
+    color: #FEA832;
+    padding: 5px 18px;
+    border-radius: 30px;
+}
+
+.name-avatar span i
+{
+    padding-right: 10px;
+}
+
+
+.i-vi
+{
+  float: left;
+    margin-right: 25px;
+    margin-bottom: 30px;
+}
+.name-vi
+{
+  float: left;
+}
+.name-vi h3
+{
+    margin-top: 0px;
+    font-size: 13px;
+    line-height: 23px;
+    margin-bottom: 0px;
+}
+
+.name-vi span
+{
+    color: #3F382B;
+    font-size: 18px;
+    line-height: 38px;
+}
+
+
+.i-coins
+{
+  float: left;
+    margin-right: 25px;
+    margin-bottom: 30px;
+}
+.name-coins
+{
+  float: left;
+}
+.name-coins h3
+{
+    margin-top: 0px;
+    font-size: 13px;
+    line-height: 23px;
+    margin-bottom: 0px;
+}
+
+.name-coins span
+{
+    color: #3F382B;
+    font-size: 18px;
+    line-height: 38px;
+}
+.box_upload {
+  display: block;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  -webkit-transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.upload-options {
+  position: relative;
+  height: 45px;
+  background-color: #1260ab;
+  cursor: pointer;
+  overflow: hidden;
+  text-align: center;
+  -webkit-transition: background-color ease-in-out 150ms;
+  transition: background-color ease-in-out 150ms;
+}
+.upload-options:hover {
+  background-color: #7fb1b3;
+}
+.upload-options input {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+.upload-options label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 100%;
+  font-weight: 400;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  cursor: pointer;
+  overflow: hidden;
+}
+.upload-options label::after {
+  content: '+';
+  position: absolute;
+  font-size: 2.5rem;
+  color: #e6e6e6;
+  top: calc(50% - 1.6rem);
+  left: calc(50% - 1.25rem);
+  z-index: 0;
+}
+.upload-options label span {
+  display: inline-block;
+  width: 50%;
+  height: 100%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  vertical-align: middle;
+  text-align: center;
+}
+.upload-options label span:hover i.material-icons {
+  color: lightgray;
+}
+
+.js--image-preview {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  background-image: url("");
+  background-color: white;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90px;
+}
+.js--image-preview img
+{
+  max-height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.js--image-preview .btn-danger
+{
+  position: absolute;
+  top: 0;
+}
+.js--image-preview .delete_product2
+{
+  position: absolute;
+  top: 0;
+}
+.js--image-preview .delete_product1
+{
+  position: absolute;
+  top: 0;
+}
+.js--image-preview .delete_images1
+{
+  position: absolute;
+  top: 0;
+}
+.js--image-preview .delete_images2
+{
+  position: absolute;
+  top: 0;
+}
+.js--image-preview .delete_images3
+{
+  position: absolute;
+  top: 0;
+}
+.js--image-preview .delete_images4
+{
+  position: absolute;
+  top: 0;
+}
+.js--image-preview .delete_images5
+{
+  position: absolute;
+  top: 0;
+}
+.js--image-preview .delete_images6
+{
+  position: absolute;
+  top: 0;
+}
+.js--image-preview::after {
+  content: "Upload";
+    position: relative;
+    font-size: 14px;
+    color: #000;
+    top: calc(50% - 1rem);
+    left: calc(50% - 2rem);
+    z-index: 0;
+}
+.js--image-preview.js--no-default::after {
+  display: none;
+}
+
+i.material-icons {
+  -webkit-transition: color 100ms ease-in-out;
+  transition: color 100ms ease-in-out;
+  font-size: 2.25em;
+  line-height: 55px;
+  color: white;
+  display: block;
+}
+
+.drop {
+  display: block;
+  position: absolute;
+  background: rgba(95, 158, 160, 0.2);
+  border-radius: 100%;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+}
+ .i-resgiter .control-label
+{
+    margin-bottom: 10px !important;
+    text-align: left !important;
+}
+.i-resgiter
+{
+  max-width: 70%;
+    margin: 0 auto;
+}
+.i-resgiter .btn-success
+{
+  background: #2BBEF9;
+    border-color: #2BBEF9;
+    padding: 8px 80px;
+}
+/*===================END INFOR_MEMBER =======---------------*/
+
+/*===================BEGIN REGITER =======---------------*/
+.register_account{
+margin-top:30px;
+text-align:center;
+float:none
+}
+.main-center {
+    margin: 0 auto;
+    max-width: 430px;
+}
+.main-center .control-label {
+    text-align: left !important;
+    display: block;
+    margin-bottom: 5px !important;
+}
+.register_account .social-login{
+width:390px;
+margin:0 auto;
+margin-bottom:14px
+}
+.register_account .form-group{
+ margin-left: auto !important;
+ margin-right: auto !important;
+}
+.register_account .social-btn{
+font-weight:100;
+color:#fff;
+width:47%;
+font-size:14px
+}
+
+.register_account a{
+display:block;
+padding-top:10px;
+color:#20b2aa
+}
+
+.register_account .lines{
+width:200px;
+border:1px solid red
+}
+
+.register_account button[type="submit"]{
+margin-top:10px
+}
+
+.register_account .facebook-btn{
+background-color:#3C589C
+}
+
+.register_account .google-btn{
+background-color:#DF4B3B
+}
+
+.register_account .form-reset,#logreg-forms .form-signup{
+display:none
+}
+
+.register_account .form-signup .social-btn{
+width:210px
+}
+
+.register_account .form-signup input{
+margin-bottom:2px
+}
+
+.center
+{
+  text-align: center;
+}
+.btn.focus, .btn:focus, .btn:hover
+{
+  color: #fff !important;
+}
+
+/*===================END REGITER =======---------------*/
+
+/*===================BEGIN LOGIN =======---------------*/
+#logreg-forms form h3
+{
+  margin-top: 5px;
+  position: relative;
+    top: -12px;
+}
+#logreg-forms{
+width:580px;
+margin:10vh auto;
+background-color:#fff;
+box-shadow:0 1px 3px rgba(0,0,0,0.12),0 1px 2px rgba(0,0,0,0.24);
+transition:all .3s cubic-bezier(.25,.8,.25,1)
+}
+
+#logreg-forms form{
+width:100%;
+max-width:580px;
+padding:15px;
+margin:auto
+}
+
+#logreg-forms .form-control{
+position:relative;
+box-sizing:border-box;
+height:auto;
+padding:10px;
+font-size:16px;
+margin:10px 0
+}
+
+#logreg-forms .form-control:focus{
+z-index:2
+}
+.btn-foget
+{
+    float: right;
+    padding-top: 0px;
+}
+
+.btn-foget:hover
+{
+  color: #2BBEF9 !important;
+}
+.not-account li 
+{
+  display: inline-block;
+}
+.not-account
+{
+    margin-top: 10px;
+    text-align: center;
+}
+#logreg-forms .form-signin input[type="email"]{
+margin-bottom:-1px;
+border-bottom-right-radius:0;
+border-bottom-left-radius:0
+}
+
+#logreg-forms .form-signin input[type="password"]{
+border-top-left-radius:0;
+border-top-right-radius:0
+}
+
+#logreg-forms .social-login{
+width:390px;
+margin:0 auto;
+margin-bottom:14px
+}
+
+#logreg-forms .social-btn{
+font-weight:100;
+color:#fff;
+width:47%;
+font-size:14px
+}
+
+#logreg-forms a{
+display:block;
+padding-top:10px;
+color:#20b2aa
+}
+
+#logreg-form .lines{
+width:200px;
+border:1px solid red
+}
+
+#logreg-forms button[type="submit"]{
+margin-top:10px
+}
+
+#logreg-forms .facebook-btn{
+background-color:#3C589C
+}
+
+#logreg-forms .google-btn{
+background-color:#DF4B3B
+}
+
+#logreg-forms .form-reset,#logreg-forms .form-signup{
+display:none
+}
+
+#logreg-forms .form-signup .social-btn{
+width:210px
+}
+
+#logreg-forms .form-signup input{
+margin-bottom:2px
+}
+
+.form-signup .social-login{
+width:210px!important;
+margin:0 auto
+}
+.btn-passnews {
+    background-color: #2BBEF9;
+    border-color: #2BBEF9;
+    color: #fff;
+}
+
+/*===================END LOGIN =======---------------*/
+
+
+
+
+@media screen and (max-width: 1024px) {
+   .nav-stacked>li
+   {
+    float: left !important;
+    margin-bottom: 20px;
+   }
+   .i-resgiter
+   {
+    max-width: 100%;
+   }
+   #logreg-forms{
+width:100%
+}
+.register_account .social-login
+{
+  width: 100%;
+  margin:0 auto;
+margin-bottom:10px
+}
+
+
+#logreg-forms .social-login{
+width:100%;
+margin:0 auto;
+margin-bottom:10px
+}
+
+#logreg-forms .social-btn{
+font-size: 14px;
+    font-weight: 100;
+    color: #fff;
+    height: 35px;
+}
+
+#logreg-forms .social-btn:nth-child(1){
+margin-bottom:5px
+}
+
+#logreg-forms .social-btn span{
+display:none
+}
+
+#logreg-forms .facebook-btn:after{
+content:'Facebook'
+}
+
+#logreg-forms .google-btn:after{
+content:'Google+'
+}
+}
+}
+@media screen and (max-width: 768px) {
+
+}
+@media screen and (max-width: 767px) {
+
+}
+@media screen and (max-width: 479px) {
+
+}
+@media screen and (max-width: 360px) {
+
+}
+@media screen and (max-width: 320px) {
+}

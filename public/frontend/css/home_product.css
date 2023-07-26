@@ -1,0 +1,120 @@
+
+/*===================BEGIN i-menber home =======---------------*/
+
+.i-menber-home {
+    margin-bottom: 10px;
+    margin-top: 25px;
+}
+.i-menber-home .wap-m{background: #fff;padding: 15px;}
+
+.i-menber-home ul{padding-left: 25px;}
+.i-menber-home .i-name {
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    padding-left: 15px;
+}.i-menber-home ul li a{color: #000;}
+.i-menber-home .i-name img { padding-right: 10px; }
+.i-menber-home ul li {
+    display: inline-block;
+    width: 49%;
+    margin-bottom: 19px;
+}
+.i-menber-home ul li img{
+    padding-right: 10px;
+    max-height: 48px;
+    max-height: 48px;
+}
+/*===================END  product-special=======---------------*/
+ .product-special {
+    padding-bottom: 36px;
+}
+ .product-special .grid-prod .item .wrap-item .progress-bar-warning{ background:#2BBEF9; }
+ .product-special .grid-prod .item .wrap-item .i-desc .i-price {
+    padding-bottom: 4px;
+}
+.product-special .grid-prod .item .wrap-item .i-top {
+    float: left;
+    width: 30%;
+}
+.product-special .grid-prod .item .wrap-item .i-desc {
+    float: left;
+    width: 70%;
+    padding-left: 15px;
+}
+.product-special .investor{ float: right; }
+.product-special .billion{ float: left; }
+/*===================BEGIN  product-special =======---------------*/
+
+
+/*===================END i-menber=======---------------*/
+/*===================BEGIN CHINHSACH =======---------------*/
+
+.chinhsachhome {
+    padding: 30px 0;
+    background: #EBF9FF;
+    color: #2BBEF9;
+}
+.chinhsach-item{text-align:center}
+.chinhsach-item img{max-width:100%;max-height:41px; margin-bottom: 7px;}
+.chinhsach-item-name{margin:5px 0;font-size:14px}
+.chinhsach-item-img i{font-size:38px}
+
+/*===================END CHINHSACH =======---------------*/
+
+/*===================BEGIN Discount =======---------------*/
+
+.bg_discount{background:#EBF9FF;padding:20px 0;margin-top:20px}
+.bg_discount .row{text-align:center}
+.bg_discount .free{color:#2BBEF9;border-style:dotted #2BBEF9;border:1px dashed #2BBEF9;display:inline-block;padding:7px 15px;margin-right:20px}
+.bg_discount .text{color:#2BBEF9;font-size:14px;line-height:30px;display:inline-flex}
+.bg_discount .i-img{max-width:70px;display:inline-block;margin-right:15px}
+
+/*===================END Discount =======---------------*/
+
+/*===================BEGIN Product-seller =======---------------*/
+
+.vnt-product-seller .grid-prod .item{padding-left:5px;padding-right:5px}
+.i-hot-deal{background:#fff}
+.i-hot-deal h2{font-size:28px;line-height:38px;text-align:center}
+.i-hot-deal .i-desc{text-align:center;font-size:14px}
+.vnt-product-seller .grid-prod .item .wrap-item .i-desc .i-title{text-align:center}
+.timer{margin:15px 0 0;font-family:sans-serif;color:#fff;font-weight:100;text-align:center;font-size:30px}
+.timer .wap-time{padding:5px;border-radius:3px;background:#F3F3F3;display:inline-block;font-size:20px;width:50px}
+.timer span{color:#374957}
+.timer .smalltext{color:#888;font-size:12px;font-weight:500;display:block;padding:0;width:auto}
+.timer .time-up{margin:8px 0 0;text-align:left;font-size:14px;font-style:normal;color:#000;font-weight:500;letter-spacing:1px}
+.timer .time-up-voucher{margin:8px 0 0;text-align:left;font-size:14px;font-style:normal;color:#000;font-weight:500;letter-spacing:1px}
+.timer .time-up-deal-top{margin:8px 0 0;text-align:left;font-size:14px;font-style:normal;color:#000;font-weight:500;letter-spacing:1px}
+
+.progress{height:5px}   
+
+/*===================END Product-seller =======---------------*/
+
+.vnt-product-new .grid-prod .item {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
+@media screen and (max-width: 1024px) {
+   .i-menber-home > .item {
+    padding-left: 15px;
+}
+.i-menber-home ul li{width: 100%;}
+}
+@media screen and (max-width: 768px) {
+
+}
+@media screen and (max-width: 767px) {
+
+}
+@media screen and (max-width: 479px) {
+
+}
+@media screen and (max-width: 360px) {
+
+}
+@media screen and (max-width: 320px) {
+}
