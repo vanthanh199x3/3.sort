@@ -4,6 +4,7 @@
 @section('content')
 
 <!--===BEGIN SLIDER ===---->
+test
 <section class="wap_slider">
     <div class="vnt-banner">
 
