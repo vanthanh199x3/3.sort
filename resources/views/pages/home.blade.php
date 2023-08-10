@@ -5,6 +5,7 @@
 
 <!--===BEGIN SLIDER ===---->
 <section class="wap_slider">
+  <div class="test"></div>
     <div class="vnt-banner">
 
            @foreach($slider as $key => $slide)
